@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+   <h1></h1>
+   <p class="small-txt"></p>
+   <input type="checkbox" onclick="enableDarkMode()" id="check">
+
+   <button id="increaseFontBtn">Aumentar tamaño de fuente</button>
+   <button id="decreaseFontBtn">Reducir tamaño de fuente</button>
+
+ 
+
+  <h1>Jugadores fifa 24</h1>
+    <form>
+        <label>NOMBRE</label><br>
+        <input type="text" id="nombre"><br>
+
+
+        <label>FECHA NACIMIENTO</label><br>
+        <input type="date" id="fecha"><br>
+
+        <label>E-MAIL</label><br>
+        <input type="email" id="email" name="email"><br>
+
+
+        <label>SKILLS</label><br>
+        <input type="text" id="skills"><br>
+
+        <label>COLOR DE PIEL</label><br>
+        <input type="text" id="colordepiel"><br>
+    
+        <label>MEDIA</label><br>
+        <input type="text" id="media"><br>
+
+        <button type="submit" onclick='return enviarFormulario()' id="btn">Registrar</button>
+        <span id="contenedorBtnExtra"></span>
+    </form><br>
+    <div id='error'></div>
+    <div id="contenedorTabla">
+
+    </div>
+    <script src="script.js"></script>
+
+  <footer class="footer">
+    <div class="container">
+
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
